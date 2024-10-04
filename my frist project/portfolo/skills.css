@@ -1,0 +1,33 @@
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+body{ width: 100vw;
+background-color: rgba(38, 95, 60, 0.658);}
+
+
+h2{ text-align: center;
+padding-top: 2rem;
+
+font-family: 'Unica One', cursive;}
+
+.sub-container{display: flex;
+justify-content: space-around;
+margin: 0 auto;
+margin-top: 3rem;
+font-family: Arial, Helvetica;
+color: #fff;
+width: 90vw;
+gap: 20px;}
+
+.skills-container{ display: flex;
+justify-content: space-between;
+padding-bottom: 1rem;}
+
+.progress{ width: 40vw;
+    accent-color: #0fca1f;
+}
+.progress::-webkit-progress-value {
+    background-color: rgb(40, 114, 53);
+}

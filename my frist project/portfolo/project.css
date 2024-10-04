@@ -1,0 +1,226 @@
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{ 
+margin: 0 auto;
+}
+
+.header{ width:100%;
+height: 18vh;
+
+
+}
+
+nav{ width: 100%;
+height: 12vh;
+background-color: rgb(36, 190, 36);
+position: fixed;
+}
+nav ul{display: flex;
+justify-content: space-around;
+align-items: center;}
+nav ul li{ list-style: none;
+    padding-top: 20px;}
+
+nav ul li a{ text-decoration: none;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 1.3rem;
+
+}
+
+li a img{ border-radius: 50%;
+padding-top: 2px;}
+
+
+
+li a:hover{ text-decoration: overline;
+   
+color: black;}
+
+.banner{ width: 100%;
+height: 6vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+background-color: rgb(32, 148, 32);}
+
+.logo{ font-size: 1.5rem;
+font-weight: bold;
+color: #fff;
+font-family: Arial;}
+.carts{ display: flex;
+    width: 10vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+justify-content: space-between;}
+
+
+.title{ font-size: 3rem;
+    padding-left: 3.5rem ;
+    padding-bottom: 2px;
+    width: 100%;
+    
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', ;}
+
+.main-conrainer{ width: 100%;
+
+height: 126vh;}
+
+.main{ display: grid;
+    width: 90%;
+grid-template-columns:33.33% 33.33% 33.33%;
+grid-template-rows: 350px 350px 350px;
+row-gap: 10px ;
+margin: 0 auto;
+column-gap: 10px;
+}
+
+.main .item{ box-shadow: 0px 5px 10px rgb(221, 238, 207);}
+
+.main .header{ height: 230px;
+background-color: #d6e4d6;}
+
+.main .bottom{ height: 150px;
+background-color: #d6e4d6;
+color: black;
+font-size: 1.1rem;
+font-family: Arial, Helvetica ;
+align-content: center;}
+
+.bottom p, .pric{ padding-left: 10px;}
+
+.pric{ font-size: 2rem;
+font-weight: bold;}
+
+.bottom p{ padding-bottom: 3px;}
+
+.bottom p:hover{ color: rgb(233, 109, 64);}
+
+.categories{ width: 100vw;
+  margin-top: 20px;
+}
+.categories-title{ width: 90.2vw;
+  margin: 0 auto;
+
+margin-bottom: 20px;
+border-bottom: 2px solid #bbbbbb;
+
+}
+h4{ font-size: 2rem;
+padding-bottom: 2px;
+font-family: "Arial";}
+
+.categories-list{ display: flex;
+justify-content: space-between;
+gap: 5px;
+width: 90%;
+margin: 0 auto;
+font-family: "Arial";
+
+height:20vh;}
+
+.categories-item{ 
+
+  height: 20vh;
+  width: 20%;
+align-items: center;
+text-align: center;
+}
+.categories-list .header{ width: 20vh;
+height: 6vh;}
+
+.categories-list .header img{ margin-top:5px;}
+
+.categories-list p{ padding: 10px 0;
+font-size: 30px;}
+
+.categories-list p:hover{ text-decoration: underline;
+color: #eeb346;
+transition: .5s;
+cursor: pointer;
+}
+
+
+
+
+.footer{
+    
+    margin-top:15px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  
+  
+  
